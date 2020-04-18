@@ -6,8 +6,8 @@
   {% include header.html %}
     {% for post in site.posts reversed %}
     {% capture id %}{{ post.id | remove:'/' }}{% endcapture %}
-    <div class="w3-container w3-padding-32" id="{{ id }}">
-      <div class="w3-content w3-ul w3-responsive">
+    <div class="w3-container w3-padding-64" id="{{ id }}">
+      <div class="w3-content">
         {{ post.content }}
       </div>
     </div>

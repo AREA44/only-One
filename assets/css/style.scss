@@ -1,7 +1,17 @@
 ---
 ---
+
 @charset "UTF-8";
 @import "w3pro";
 @import "w3-colors-2018";
-@import "normalize";
+@import "custom";
 @import "syntax";
+
+/* ========== Color ========== */
+{% for post in site.posts %}
+{% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
+/* ------ Background color ------ */
+{% capture back_ground %}{{ post.back_ground }}{% endcapture %}
+#{{ id }} { background-color: {{ back_ground }} !important; }
+
+{% endfor %}
