@@ -10,8 +10,11 @@
 /* ========== Color ========== */
 {% for post in site.posts %}
 {% capture id %}{{ post.id | remove:'/' | downcase }}{% endcapture %}
-/* ------ Background color ------ */
 {% capture back_ground %}{{ post.back_ground }}{% endcapture %}
-#{{ id }} { background-color: {{ back_ground }} !important; }
+{% capture text_color %}{{ post.text_color }}{% endcapture %}
+#{{ id }} {
+  background-color: {{ back_ground }} !important;
+  color: {{ text_color }} !important;
+}
 
 {% endfor %}
