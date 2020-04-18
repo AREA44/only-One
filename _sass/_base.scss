@@ -1,9 +1,16 @@
+/*!
+ * only One Jekyll Theme by finger Labs
+ */
+
 html,
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif ;
 }
 
-pre { margin: 1em 0; overflow: auto; }
+pre {
+  margin: 1em 0;
+  overflow: auto;
+}
 
 img {
   max-width: 100%;
@@ -21,3 +28,4 @@ dl {
     margin-bottom: 1rem;
   }
 }
+

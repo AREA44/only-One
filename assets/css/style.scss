@@ -1,11 +1,17 @@
 ---
 ---
+/*!
+ * only One Jekyll Theme by finger Labs
+ * Copyright 2013-2020 finger Labs
+ * Licensed under MIT (https://github.com/fingerLabs/only-One/blob/master/LICENSE.md)
+*/
 
 @charset "UTF-8";
 @import "w3pro";
-@import "color-variables";
-@import "custom";
+@import "variables";
+@import "base";
 @import "syntax";
+@import "tables";
 
 /* ========== Color ========== */
 {% for post in site.posts %}
