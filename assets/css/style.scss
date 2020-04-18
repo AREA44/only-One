@@ -3,7 +3,7 @@
 
 @charset "UTF-8";
 @import "w3pro";
-@import "w3-colors-2018";
+@import "color-variables";
 @import "custom";
 @import "syntax";
 
@@ -16,5 +16,6 @@
   background-color: {{ back_ground }} !important;
   color: {{ text_color }} !important;
 }
+.btn-background-{{ id }} { background-color: {{ back_ground }} !important; }
 
 {% endfor %}

@@ -1,9 +1,9 @@
 <div class="w3-top">
-  <div class="w3-row w3-padding w3-2018-quiet-gray">
+  <div class="w3-row w3-padding w3-grey">
     {% for post in site.posts reversed %}
       {% capture id %}{{ post.id | remove:'/' }}{% endcapture %}
       <div class="w3-col s3">
-        <a href="#{{ id }}" class="w3-button w3-block w3-2018-quiet-gray">{{ post.title }}</a>
+        <a href="#{{ id }}" class="w3-btn w3-block btn-background-{{ id }}">{{ post.title }}</a>
       </div>
     {% endfor %}
   </div>
