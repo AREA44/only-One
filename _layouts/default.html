@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+  {% include nav_bar.html %}
+  {% include header.html %}
+    {% for post in site.posts reversed %}
+    {% capture id %}{{ post.id | remove:'/' }}{% endcapture %}
+    <div class="w3-container w3-padding-32" id="{{ id }}">
+      <div class="w3-content w3-ul w3-responsive">
+        {{ post.content }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+{% include footer.html %}
+{% include analytics.html %}
+</body>
+</html>
