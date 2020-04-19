@@ -1,3 +1,5 @@
-_site/
+_site
 .sass-cache
-TODO.md
+Gemfile.lock
+*.gem
+template
