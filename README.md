@@ -1,4 +1,6 @@
 # **only One** Jekyll theme
+[![Build Status](https://travis-ci.com/fingerLabs/only-One.svg?branch=master)](https://travis-ci.com/fingerLabs/only-One)
+
 `only One` is a Jekyll theme for GitHub Pages.
 
 ![screenshot](docs/screenshot.png)
