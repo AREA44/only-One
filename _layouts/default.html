@@ -2,19 +2,17 @@
 <html>
 {% include head.html %}
 <body>
-  {% include nav_bar.html %}
   {% include header.html %}
     {% for post in site.posts reversed %}
     {% capture id %}{{ post.id | remove:'/' }}{% endcapture %}
-    <div class="w3-container w3-padding-64" id="{{ id }}">
-      <div class="w3-content">
+    <div class="container-fluid" style="margin-top:30px" id="{{ id }}">
+      <div class="container">
         {{ post.content }}
       </div>
     </div>
     {% endfor %}
   </div>
-
-{% include footer.html %}
-{% include google_analytics.html %}
+  {% include footer.html %}
+  {% include google_analytics.html %}
 </body>
 </html>
