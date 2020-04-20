@@ -1,5 +1,5 @@
 # **only One** Jekyll theme
-[![Build Status](https://travis-ci.com/fingerLabs/only-One.svg?branch=master)](https://travis-ci.com/fingerLabs/only-One)
+[![Build Status](https://travis-ci.com/AREA44/only-One.svg?branch=master)](https://travis-ci.com/AREA44/only-One)
 
 `only One` is a Jekyll theme for GitHub Pages.
 
@@ -62,7 +62,7 @@ If you'd like to add your own custom styles:
 
 If you'd like to change the theme's HTML layout:
 
-1. [Copy the original template](https://github.com/fingerLabs/only-One/blob/master/_layouts/default.html) from the theme's repository<br/>(*Pro-tip: click "raw" to make copying easier*)
+1. [Copy the original template](https://github.com/AREA44/only-One/blob/master/_layouts/default.html) from the theme's repository<br/>(*Pro-tip: click "raw" to make copying easier*)
 2. Create a file called `/_layouts/default.html` in your site
 3. Paste the default layout content copied in the first step
 4. Customize the layout as you'd like
@@ -78,7 +78,7 @@ Interested in contributing to `only One`? We'd love your help. `only One` is an 
 
 If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-1. Clone down the theme's repository (`git clone https://github.com/fingerLabs/only-One`)
+1. Clone down the theme's repository (`git clone https://github.com/AREA44/only-One`)
 2. `cd` into the theme's directory
 3. Run `bundle exec jekyll serve` to start the preview server
 4. Visit [`localhost:4000/only-One/`](http://localhost:4000/only-One) in your browser to preview the theme
@@ -87,7 +87,7 @@ If you'd like to preview the theme locally (for example, in the process of propo
 
 ### Creator
 
-[`Finger Labs`](https://github.com/fingerLabs) by **Long Nhat Nguyen**
+[`AREA44`](https://github.com/AREA44) by **Long Nhat Nguyen**
 
 ### Other
 
