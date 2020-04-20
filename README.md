@@ -1,5 +1,5 @@
 # **only One** Jekyll theme
-[![Build Status](https://travis-ci.com/AREA44/only-One.svg?branch=master)](https://travis-ci.com/AREA44/only-One)
+[![Build Status](https://travis-ci.org/AREA44/only-One.svg?branch=master)](https://travis-ci.org/AREA44/only-One)
 
 `only One` is a Jekyll theme for GitHub Pages.
 
@@ -82,18 +82,6 @@ If you'd like to preview the theme locally (for example, in the process of propo
 2. `cd` into the theme's directory
 3. Run `bundle exec jekyll serve` to start the preview server
 4. Visit [`localhost:4000/only-One/`](http://localhost:4000/only-One) in your browser to preview the theme
-
-## Credits
-
-### Creator
-
-[`AREA44`](https://github.com/AREA44) by **Long Nhat Nguyen**
-
-### Other
-
-* [Jekyll](http://jekyllrb.com)
-* [W3CSS](https://www.w3schools.com/w3css)
-* [Minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
 
 ## License
 [MIT](LICENSE.md)
