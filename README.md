@@ -1,5 +1,5 @@
 # **only One** Jekyll theme
-[![Build Status](https://travis-ci.org/AREA44/only-One.svg?branch=master)](https://travis-ci.org/AREA44/only-One)
+[![Build Status](https://travis-ci.com/AREA44/only-One.svg?branch=master)](https://travis-ci.com/AREA44/only-One)
 
 `only One` is a Jekyll theme for GitHub Pages.
 
