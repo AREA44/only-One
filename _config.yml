@@ -3,3 +3,5 @@ description: "only One is a simple Jekyll theme."
 baseurl: /only-One
 permalink: /:title
 google_analytics: 
+
+exclude: [vendor]
