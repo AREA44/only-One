@@ -1,6 +1,11 @@
 #!/usr/bin/env bash
 set -e
 
+echo "Gem version"
+gem -v
+echo "Jekyll version"
+jekyll -v
+
 echo "Building the example site..."
 bundle exec jekyll build
 
