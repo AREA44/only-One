@@ -4,4 +4,6 @@ baseurl: /only-One
 permalink: /:title
 google_analytics: 
 
-exclude: [vendor]
+exclude: 
+  - vendor
+  - script
