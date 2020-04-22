@@ -1,7 +1,7 @@
 title: "only One"
 description: "only One is a simple Jekyll theme."
-baseurl: /only-One
 permalink: /:title
+baseurl: ""
 google_analytics: 
 
 exclude: 
