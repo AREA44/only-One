@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+
 <body>
   {% include header.html %}
   {% include navigation.html %}
 
-    {% for post in site.posts reversed %}
-    {% capture id %}{{ post.id | remove:'/' }}{% endcapture %}
-    <div class="container-fluid" style="margin-top:30px" id="{{ id }}">
-      <div class="container">
-        {{ post.content }}
-      </div>
+  {% for post in site.posts reversed %}
+  <div class="container-fluid"
+    style="margin-top:30px; background-color:{{ post.back_ground }}; color:{{ post.text_color }}"
+    id="{{ post.id | remove:'/' }}">
+    <div class="container">
+      {{ post.content }}
     </div>
-    {% endfor %}
+  </div>
+  {% endfor %}
   </div>
 
   {% include footer.html %}
   {% include google_analytics.html %}
 </body>
+
 </html>
