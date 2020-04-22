@@ -1,24 +1,23 @@
 # **only One** Jekyll theme
 [![Build Status](https://travis-ci.com/AREA44/only-One.svg?branch=master)](https://travis-ci.com/AREA44/only-One)
 
-**only-One** is a Jekyll theme for GitHub Pages.
+**only One** is a Jekyll theme for GitHub Pages.
 
 ![screenshot](docs/screenshot.png)
 
 ## Features
 
 * Compatible with GitHub Pages.
-* Support for Jekyll's built-in Sass/SCSS preprocessor.
+* Support for Jekyll's built-in SASS/SCSS preprocessor.
 * Several responsive layout options.
-* [Google Analytics](https://www.google.com/analytics/) support.
 
 ## Installation
 
-There are three ways to install: as a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/) (GitHub Pages compatible), or forking/directly copying all of the theme files into your project.
+Forking/directly copying all of the theme files into your project.
 
 ## Contributing
 
-Interested in contributing to **only-One**? We'd love your help. **only-One** is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+Interested in contributing to **only One**? We'd love your help. **only One** is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
 
 ### Previewing the theme locally
 

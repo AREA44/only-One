@@ -14,5 +14,3 @@ When submitting a pull request:
 ## Development
 
 To build this theme, you need install `jekyll`. For more information, see [this](https://jekyllrb.com/docs/installation/).
-
-**Note:** While Windows is not an officially-supported platform, you can install `jekyll` by [`Chocoley`](https://chocolatey.org/packages/jekyll).
