@@ -27,7 +27,7 @@ If you'd like to preview the theme locally (for example, in the process of propo
 1. Clone down the theme's repository (`git clone https://github.com/AREA44/only-One`)
 2. `cd` into the theme's directory
 3. Run `bundle exec jekyll serve` to start the preview server
-4. Visit [`localhost:4000/only-One/`](http://localhost:4000/only-One) in your browser to preview the theme
+4. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
 
 ## License
 [MIT](LICENSE.md)

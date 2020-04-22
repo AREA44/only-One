@@ -11,7 +11,6 @@ With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`
 ```yml
 title: [The title of your site]
 description: [A short description of your site's purpose]
-baseurl: [Prepend the baseurl value to the input]
 ```
 
 Additionally, you may choose to set the following optional variables:
