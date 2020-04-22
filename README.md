@@ -15,9 +15,12 @@
 
 Forking/directly copying all of the theme files into your project.
 
+## CUSTUMIZING
+See [the CUSTUMIZING file](./docs/CUSTUMIZING.md) for instructions.
+
 ## Contributing
 
-Interested in contributing to **only One**? We'd love your help. **only One** is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](docs/CONTRIBUTING.md) for instructions on how to contribute.
+Interested in contributing to **only One**? We'd love your help. **only One** is an open source project, built one contribution at a time by users like you. See [the CONTRIBUTING file](./docs/CONTRIBUTING.md) for instructions on how to contribute.
 
 ### Previewing the theme locally
 
@@ -29,4 +32,4 @@ If you'd like to preview the theme locally (for example, in the process of propo
 4. Visit [`localhost:4000`](http://localhost:4000) in your browser to preview the theme
 
 ## License
-[MIT](LICENSE.md)
+[MIT](./LICENSE.md)

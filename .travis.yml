@@ -2,8 +2,7 @@ language: ruby
 rvm:
   - 2.6.3
 
-before_install:
- - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+before_install: chmod +x
 
 install: gem install jekyll html-proofer
 script: jekyll build && htmlproofer ./_site
