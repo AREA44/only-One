@@ -7,7 +7,7 @@
   {% include navigation.html %}
 
   {% for post in site.posts reversed %}
-  <div class="container-fluid" style="background-color: {{ post.background-color }};">
+  <div class="container-fluid" style="background-color: {{ post.background-color }}; padding: 10px 0px 10px 0px;">
     <div class="container" style="color:{{ post.textcolor }};">
       {{ post.content }}
     </div>
