@@ -1,6 +1,7 @@
 # 2.1 (April 24, 2020)
 * New `footer`.
 * `Sidebar` support.
+* Improve test with `htmlproofer`.
 
 # 2.0 (April 22, 2020)
 * Use `bootstrap v4.4.1`.
