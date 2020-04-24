@@ -14,13 +14,18 @@ Additionally, you may choose to set the following optional variables:
 google_analytics: [Your Google Analytics tracking ID]
 ```
 
-## Navigation
+## Navigation and Sidebar
 Customize site navigational links through a Jekyll data file. To define these links add titles and URLs under variables in `_data/navigation.yml`:
 ```yml
 - title: About
   link: "#about"
 - title: Markdown
   link: "#markdown"
+```
+With sidebar, variables in `_data/sidebar.yml`:
+```yml
+- title: "#about"
+- title: "#markdown"
 ```
 
 ## Stylesheet

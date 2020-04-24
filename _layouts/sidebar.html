@@ -10,9 +10,9 @@
         <img src="./assets/img/favicon.png" width="40" height="40" alt="Brand">
       </a>
     </div>
-    {% for item in site.data.navigation %}
+    {% for item in site.data.sidebar %}
     <ul class="list-unstyled">
-      <li><a href="{{ item.link }}">{{ item.title }}</a></li>
+      <li><a href="#{{ item.title }}">{{ item.title }}</a></li>
     </ul>
     {% endfor %}
   </nav>
