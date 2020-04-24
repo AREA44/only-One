@@ -4,4 +4,4 @@ permalink: /:title
 baseurl: ""
 google_analytics: 
 
-exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.md", "LICENSE.md", "Rakefile", "docs"]
+exclude: ["vendor", "Gemfile", "Gemfile.lock", "README.md", "LICENSE.md", "Rakefile"]
