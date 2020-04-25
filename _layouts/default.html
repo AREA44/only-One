@@ -3,15 +3,12 @@
 {% include head.html %}
 {% include google_analytics.html %}
 <body>
-  {% include header.html %}
-  {% include navigation.html %}
+  {% include navbar.html %}
 
   {% for post in site.posts reversed %}
-  <div class="container-fluid" style="background-color: {{ post.background-color }}; padding: 10px 0px 10px 0px;">
-    <div class="container" style="color:{{ post.textcolor }};">
+    <div class="container">
       {{ post.content }}
     </div>
-  </div>
   {% endfor %}
 
   {% include footer.html %}

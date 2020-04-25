@@ -1,6 +1,11 @@
+# 2.2 (April 26, 2020)
+* `sidebar`, `background color` and `text color` removed.
+* `navbar` follows [**twbs/blog**](https://github.com/twbs/blog).
+* Syntax follows github.
+
 # 2.1 (April 24, 2020)
 * New `footer`.
-* `Sidebar` support.
+* `sidebar` support.
 * Improve test with `htmlproofer`.
 
 # 2.0 (April 22, 2020)
