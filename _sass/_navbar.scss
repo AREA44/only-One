@@ -1,0 +1,46 @@
+/*
+ * NAVBAR by [twbs/blog](https://github.com/twbs/blog)
+ */
+
+$white:     #fff;
+$bd-dark:   #343a40;
+
+.bd-navbar {
+  min-height: 4rem;
+  background-color: $bd-dark;
+
+  @media (max-width: 991.98px) {
+    .navbar-nav-scroll {
+      width: 100%;
+      height: 2.5rem;
+      margin-top: .25rem;
+      overflow: hidden;
+
+      .navbar-nav {
+        padding-bottom: 2rem;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      padding-right: .5rem;
+      padding-left: .5rem;
+      color: rgba($white, .85);
+
+      &.active,
+      &:hover,
+      &:focus {
+        color: $white;
+        background-color: transparent;
+      }
+
+      &.active {
+        font-weight: 600;
+      }
+    }
+  }
+}
