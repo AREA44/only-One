@@ -15,7 +15,7 @@
 
 Forking/directly copying all of the theme files into your project.
 
-## CUSTUMIZING
+## Custumizing
 See [the CUSTUMIZING file](./docs/CUSTUMIZING.md) for instructions.
 
 ## Contributing
