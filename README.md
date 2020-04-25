@@ -3,8 +3,6 @@
 
 **only One** is a Jekyll theme for GitHub Pages.
 
-![screenshot](docs/screenshot.png)
-
 ## Features
 
 * Compatible with GitHub Pages.
