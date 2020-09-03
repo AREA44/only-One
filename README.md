@@ -1,5 +1,5 @@
 # **only One** Jekyll theme
-[![Build Status](https://travis-ci.com/AREA44/only-One-jekyll.svg?branch=master)](https://travis-ci.com/AREA44/only-One-jekyll)
+[![Build Status](https://travis-ci.com/AREA44/jekyll-only-One.svg?branch=master)](https://travis-ci.com/AREA44/jekyll-only-One)
 
 **only One** is a Jekyll theme for GitHub Pages.
 
@@ -24,7 +24,7 @@ Interested in contributing to **only One**? We'd love your help. **only One** is
 
 If you'd like to preview the theme locally (for example, in the process of proposing a change):
 
-1. Clone down the theme's repository (`git clone https://github.com/AREA44/only-One`)
+1. Clone down the theme's repository (`git clone https://github.com/AREA44/jekyll-only-One`)
 2. `cd` into the theme's directory
 3. Run `bundle install` to install
 3. Run `bundle exec jekyll serve` to start the preview server
